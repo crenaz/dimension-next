@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-}
 
-module.exports = nextConfig
+  // Add Partytown configuration
+  experimental: {
+    nextScriptWorkers: true,
+  },
+};
+
+module.exports = nextConfig;
