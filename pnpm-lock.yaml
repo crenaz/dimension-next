@@ -5,6 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
+  braces: github:Im-Fran/braces#3.0.4
   '@eslint/plugin-kit': ^0.3.4
   '@humanfs/node': ^0.16.8
   '@opentelemetry/core': ^1.30.1
@@ -796,9 +797,10 @@ packages:
   brace-expansion@2.1.4:
     resolution: {integrity: sha512-hGfVzPxthbf3+2yjg/RBs60cB0FhqBS/zvdV/4wn4/BmN0bNMMHPc4V/BbFieqf1TKAGGAHnY4eSjajCl0f2Xg==}
 
-  braces@3.0.3:
-    resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
-    engines: {node: '>=8'}
+  braces@https://codeload.github.com/Im-Fran/braces/tar.gz/cd87537a878642097328be419a7cb94e7e2d8b95:
+    resolution: {tarball: https://codeload.github.com/Im-Fran/braces/tar.gz/cd87537a878642097328be419a7cb94e7e2d8b95}
+    version: 3.0.4
+    engines: {node: '>=8.3'}
 
   browserslist@4.28.9:
     resolution: {integrity: sha512-EWazOblFYUvlGZcfGhPUPmYh3nikUxBVb+y9MJun5f3hBi812X+8MSQTujLBtgK3cf51fJWbWfOjyeO954d+Eg==}
@@ -2619,7 +2621,7 @@ snapshots:
     dependencies:
       balanced-match: 1.0.2
 
-  braces@3.0.3:
+  braces@https://codeload.github.com/Im-Fran/braces/tar.gz/cd87537a878642097328be419a7cb94e7e2d8b95:
     dependencies:
       fill-range: 7.1.1
 
@@ -3454,7 +3456,7 @@ snapshots:
 
   micromatch@4.0.8:
     dependencies:
-      braces: 3.0.3
+      braces: https://codeload.github.com/Im-Fran/braces/tar.gz/cd87537a878642097328be419a7cb94e7e2d8b95
       picomatch: 4.0.7
 
   minimatch@9.0.9:
